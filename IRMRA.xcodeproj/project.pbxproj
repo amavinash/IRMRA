@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E127CABD1CDB2F12001FEC83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E127CABC1CDB2F12001FEC83 /* main.m */; };
+		E127CAC01CDB2F12001FEC83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E127CABF1CDB2F12001FEC83 /* AppDelegate.m */; };
+		E127CAC31CDB2F12001FEC83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E127CAC21CDB2F12001FEC83 /* ViewController.m */; };
+		E127CAC61CDB2F12001FEC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E127CAC41CDB2F12001FEC83 /* Main.storyboard */; };
+		E127CAC91CDB2F12001FEC83 /* IRMRA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E127CAC71CDB2F12001FEC83 /* IRMRA.xcdatamodeld */; };
+		E127CACB1CDB2F12001FEC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E127CACA1CDB2F12001FEC83 /* Assets.xcassets */; };
+		E127CACE1CDB2F12001FEC83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E127CACC1CDB2F12001FEC83 /* LaunchScreen.storyboard */; };
+		E127CAD91CDB2F12001FEC83 /* IRMRATests.m in Sources */ = {isa = PBXBuildFile; fileRef = E127CAD81CDB2F12001FEC83 /* IRMRATests.m */; };
+		E127CAE41CDB2F12001FEC83 /* IRMRAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E127CAE31CDB2F12001FEC83 /* IRMRAUITests.m */; };
+		E127CB031CDB3166001FEC83 /* Logon_backgroundImage-480h.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E127CAFE1CDB3166001FEC83 /* Logon_backgroundImage-480h.jpg */; };
+		E127CB041CDB3166001FEC83 /* Logon_backgroundImage-568h.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E127CAFF1CDB3166001FEC83 /* Logon_backgroundImage-568h.jpg */; };
+		E127CB051CDB3166001FEC83 /* Logon_backgroundImage-667h.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E127CB001CDB3166001FEC83 /* Logon_backgroundImage-667h.jpg */; };
+		E127CB061CDB3166001FEC83 /* Logon_backgroundImage-736h.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E127CB011CDB3166001FEC83 /* Logon_backgroundImage-736h.jpg */; };
+		E127CB071CDB3166001FEC83 /* Logon_backgroundImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E127CB021CDB3166001FEC83 /* Logon_backgroundImage.jpg */; };
+		E127CB0B1CDB32BF001FEC83 /* IRMRA_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E127CB081CDB32BF001FEC83 /* IRMRA_logo.png */; };
+		E127CB0C1CDB32BF001FEC83 /* IRMRA_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E127CB091CDB32BF001FEC83 /* IRMRA_logo@2x.png */; };
+		E127CB0D1CDB32BF001FEC83 /* IRMRA_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E127CB0A1CDB32BF001FEC83 /* IRMRA_logo@3x.png */; };
+		E127CB101CDB7051001FEC83 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E127CB0F1CDB7051001FEC83 /* RegisterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E127CAD51CDB2F12001FEC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E127CAB01CDB2F12001FEC83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E127CAB71CDB2F12001FEC83;
+			remoteInfo = IRMRA;
+		};
+		E127CAE01CDB2F12001FEC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E127CAB01CDB2F12001FEC83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E127CAB71CDB2F12001FEC83;
+			remoteInfo = IRMRA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E127CAB81CDB2F12001FEC83 /* IRMRA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRMRA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E127CABC1CDB2F12001FEC83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E127CABE1CDB2F12001FEC83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E127CABF1CDB2F12001FEC83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E127CAC11CDB2F12001FEC83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E127CAC21CDB2F12001FEC83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E127CAC51CDB2F12001FEC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E127CAC81CDB2F12001FEC83 /* IRMRA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IRMRA.xcdatamodel; sourceTree = "<group>"; };
+		E127CACA1CDB2F12001FEC83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E127CACD1CDB2F12001FEC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E127CACF1CDB2F12001FEC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E127CAD41CDB2F12001FEC83 /* IRMRATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRMRATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E127CAD81CDB2F12001FEC83 /* IRMRATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRMRATests.m; sourceTree = "<group>"; };
+		E127CADA1CDB2F12001FEC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E127CADF1CDB2F12001FEC83 /* IRMRAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRMRAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E127CAE31CDB2F12001FEC83 /* IRMRAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRMRAUITests.m; sourceTree = "<group>"; };
+		E127CAE51CDB2F12001FEC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E127CAFE1CDB3166001FEC83 /* Logon_backgroundImage-480h.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Logon_backgroundImage-480h.jpg"; sourceTree = "<group>"; };
+		E127CAFF1CDB3166001FEC83 /* Logon_backgroundImage-568h.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Logon_backgroundImage-568h.jpg"; sourceTree = "<group>"; };
+		E127CB001CDB3166001FEC83 /* Logon_backgroundImage-667h.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Logon_backgroundImage-667h.jpg"; sourceTree = "<group>"; };
+		E127CB011CDB3166001FEC83 /* Logon_backgroundImage-736h.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Logon_backgroundImage-736h.jpg"; sourceTree = "<group>"; };
+		E127CB021CDB3166001FEC83 /* Logon_backgroundImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logon_backgroundImage.jpg; sourceTree = "<group>"; };
+		E127CB081CDB32BF001FEC83 /* IRMRA_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IRMRA_logo.png; sourceTree = "<group>"; };
+		E127CB091CDB32BF001FEC83 /* IRMRA_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IRMRA_logo@2x.png"; sourceTree = "<group>"; };
+		E127CB0A1CDB32BF001FEC83 /* IRMRA_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IRMRA_logo@3x.png"; sourceTree = "<group>"; };
+		E127CB0E1CDB7051001FEC83 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		E127CB0F1CDB7051001FEC83 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E127CAB51CDB2F12001FEC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127CAD11CDB2F12001FEC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127CADC1CDB2F12001FEC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E127CAAF1CDB2F12001FEC83 = {
+			isa = PBXGroup;
+			children = (
+				E127CABA1CDB2F12001FEC83 /* IRMRA */,
+				E127CAF11CDB2F6A001FEC83 /* Resources */,
+				E127CAD71CDB2F12001FEC83 /* IRMRATests */,
+				E127CAE21CDB2F12001FEC83 /* IRMRAUITests */,
+				E127CAB91CDB2F12001FEC83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E127CAB91CDB2F12001FEC83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E127CAB81CDB2F12001FEC83 /* IRMRA.app */,
+				E127CAD41CDB2F12001FEC83 /* IRMRATests.xctest */,
+				E127CADF1CDB2F12001FEC83 /* IRMRAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E127CABA1CDB2F12001FEC83 /* IRMRA */ = {
+			isa = PBXGroup;
+			children = (
+				E127CABE1CDB2F12001FEC83 /* AppDelegate.h */,
+				E127CABF1CDB2F12001FEC83 /* AppDelegate.m */,
+				E127CAC11CDB2F12001FEC83 /* ViewController.h */,
+				E127CAC21CDB2F12001FEC83 /* ViewController.m */,
+				E127CB0E1CDB7051001FEC83 /* RegisterViewController.h */,
+				E127CB0F1CDB7051001FEC83 /* RegisterViewController.m */,
+				E127CAC41CDB2F12001FEC83 /* Main.storyboard */,
+				E127CACA1CDB2F12001FEC83 /* Assets.xcassets */,
+				E127CACC1CDB2F12001FEC83 /* LaunchScreen.storyboard */,
+				E127CACF1CDB2F12001FEC83 /* Info.plist */,
+				E127CAC71CDB2F12001FEC83 /* IRMRA.xcdatamodeld */,
+				E127CABB1CDB2F12001FEC83 /* Supporting Files */,
+			);
+			path = IRMRA;
+			sourceTree = "<group>";
+		};
+		E127CABB1CDB2F12001FEC83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E127CABC1CDB2F12001FEC83 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E127CAD71CDB2F12001FEC83 /* IRMRATests */ = {
+			isa = PBXGroup;
+			children = (
+				E127CAD81CDB2F12001FEC83 /* IRMRATests.m */,
+				E127CADA1CDB2F12001FEC83 /* Info.plist */,
+			);
+			path = IRMRATests;
+			sourceTree = "<group>";
+		};
+		E127CAE21CDB2F12001FEC83 /* IRMRAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E127CAE31CDB2F12001FEC83 /* IRMRAUITests.m */,
+				E127CAE51CDB2F12001FEC83 /* Info.plist */,
+			);
+			path = IRMRAUITests;
+			sourceTree = "<group>";
+		};
+		E127CAF11CDB2F6A001FEC83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E127CAF21CDB2F72001FEC83 /* Images */,
+			);
+			name = Resources;
+			path = IRMRA;
+			sourceTree = "<group>";
+		};
+		E127CAF21CDB2F72001FEC83 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E127CAF31CDB2F80001FEC83 /* LogonScreen */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E127CAF31CDB2F80001FEC83 /* LogonScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E127CB081CDB32BF001FEC83 /* IRMRA_logo.png */,
+				E127CB091CDB32BF001FEC83 /* IRMRA_logo@2x.png */,
+				E127CB0A1CDB32BF001FEC83 /* IRMRA_logo@3x.png */,
+				E127CAFE1CDB3166001FEC83 /* Logon_backgroundImage-480h.jpg */,
+				E127CAFF1CDB3166001FEC83 /* Logon_backgroundImage-568h.jpg */,
+				E127CB001CDB3166001FEC83 /* Logon_backgroundImage-667h.jpg */,
+				E127CB011CDB3166001FEC83 /* Logon_backgroundImage-736h.jpg */,
+				E127CB021CDB3166001FEC83 /* Logon_backgroundImage.jpg */,
+			);
+			name = LogonScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E127CAB71CDB2F12001FEC83 /* IRMRA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E127CAE81CDB2F12001FEC83 /* Build configuration list for PBXNativeTarget "IRMRA" */;
+			buildPhases = (
+				E127CAB41CDB2F12001FEC83 /* Sources */,
+				E127CAB51CDB2F12001FEC83 /* Frameworks */,
+				E127CAB61CDB2F12001FEC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRMRA;
+			productName = IRMRA;
+			productReference = E127CAB81CDB2F12001FEC83 /* IRMRA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E127CAD31CDB2F12001FEC83 /* IRMRATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E127CAEB1CDB2F12001FEC83 /* Build configuration list for PBXNativeTarget "IRMRATests" */;
+			buildPhases = (
+				E127CAD01CDB2F12001FEC83 /* Sources */,
+				E127CAD11CDB2F12001FEC83 /* Frameworks */,
+				E127CAD21CDB2F12001FEC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E127CAD61CDB2F12001FEC83 /* PBXTargetDependency */,
+			);
+			name = IRMRATests;
+			productName = IRMRATests;
+			productReference = E127CAD41CDB2F12001FEC83 /* IRMRATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E127CADE1CDB2F12001FEC83 /* IRMRAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E127CAEE1CDB2F12001FEC83 /* Build configuration list for PBXNativeTarget "IRMRAUITests" */;
+			buildPhases = (
+				E127CADB1CDB2F12001FEC83 /* Sources */,
+				E127CADC1CDB2F12001FEC83 /* Frameworks */,
+				E127CADD1CDB2F12001FEC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E127CAE11CDB2F12001FEC83 /* PBXTargetDependency */,
+			);
+			name = IRMRAUITests;
+			productName = IRMRAUITests;
+			productReference = E127CADF1CDB2F12001FEC83 /* IRMRAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E127CAB01CDB2F12001FEC83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Avinash Bhandarkar";
+				TargetAttributes = {
+					E127CAB71CDB2F12001FEC83 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = LS8233NJ9V;
+					};
+					E127CAD31CDB2F12001FEC83 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E127CAB71CDB2F12001FEC83;
+					};
+					E127CADE1CDB2F12001FEC83 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E127CAB71CDB2F12001FEC83;
+					};
+				};
+			};
+			buildConfigurationList = E127CAB31CDB2F12001FEC83 /* Build configuration list for PBXProject "IRMRA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E127CAAF1CDB2F12001FEC83;
+			productRefGroup = E127CAB91CDB2F12001FEC83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E127CAB71CDB2F12001FEC83 /* IRMRA */,
+				E127CAD31CDB2F12001FEC83 /* IRMRATests */,
+				E127CADE1CDB2F12001FEC83 /* IRMRAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E127CAB61CDB2F12001FEC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127CB051CDB3166001FEC83 /* Logon_backgroundImage-667h.jpg in Resources */,
+				E127CB071CDB3166001FEC83 /* Logon_backgroundImage.jpg in Resources */,
+				E127CB041CDB3166001FEC83 /* Logon_backgroundImage-568h.jpg in Resources */,
+				E127CACE1CDB2F12001FEC83 /* LaunchScreen.storyboard in Resources */,
+				E127CB0D1CDB32BF001FEC83 /* IRMRA_logo@3x.png in Resources */,
+				E127CACB1CDB2F12001FEC83 /* Assets.xcassets in Resources */,
+				E127CB061CDB3166001FEC83 /* Logon_backgroundImage-736h.jpg in Resources */,
+				E127CAC61CDB2F12001FEC83 /* Main.storyboard in Resources */,
+				E127CB031CDB3166001FEC83 /* Logon_backgroundImage-480h.jpg in Resources */,
+				E127CB0B1CDB32BF001FEC83 /* IRMRA_logo.png in Resources */,
+				E127CB0C1CDB32BF001FEC83 /* IRMRA_logo@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127CAD21CDB2F12001FEC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127CADD1CDB2F12001FEC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E127CAB41CDB2F12001FEC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127CB101CDB7051001FEC83 /* RegisterViewController.m in Sources */,
+				E127CAC31CDB2F12001FEC83 /* ViewController.m in Sources */,
+				E127CAC91CDB2F12001FEC83 /* IRMRA.xcdatamodeld in Sources */,
+				E127CAC01CDB2F12001FEC83 /* AppDelegate.m in Sources */,
+				E127CABD1CDB2F12001FEC83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127CAD01CDB2F12001FEC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127CAD91CDB2F12001FEC83 /* IRMRATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127CADB1CDB2F12001FEC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127CAE41CDB2F12001FEC83 /* IRMRAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E127CAD61CDB2F12001FEC83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E127CAB71CDB2F12001FEC83 /* IRMRA */;
+			targetProxy = E127CAD51CDB2F12001FEC83 /* PBXContainerItemProxy */;
+		};
+		E127CAE11CDB2F12001FEC83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E127CAB71CDB2F12001FEC83 /* IRMRA */;
+			targetProxy = E127CAE01CDB2F12001FEC83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E127CAC41CDB2F12001FEC83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E127CAC51CDB2F12001FEC83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E127CACC1CDB2F12001FEC83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E127CACD1CDB2F12001FEC83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E127CAE61CDB2F12001FEC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E127CAE71CDB2F12001FEC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E127CAE91CDB2F12001FEC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = IRMRA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.the4PApps.IRMRA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E127CAEA1CDB2F12001FEC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = IRMRA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.the4PApps.IRMRA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		E127CAEC1CDB2F12001FEC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IRMRATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.the4PApps.IRMRATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IRMRA.app/IRMRA";
+			};
+			name = Debug;
+		};
+		E127CAED1CDB2F12001FEC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IRMRATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.the4PApps.IRMRATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IRMRA.app/IRMRA";
+			};
+			name = Release;
+		};
+		E127CAEF1CDB2F12001FEC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IRMRAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.the4PApps.IRMRAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IRMRA;
+			};
+			name = Debug;
+		};
+		E127CAF01CDB2F12001FEC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IRMRAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.the4PApps.IRMRAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IRMRA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E127CAB31CDB2F12001FEC83 /* Build configuration list for PBXProject "IRMRA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E127CAE61CDB2F12001FEC83 /* Debug */,
+				E127CAE71CDB2F12001FEC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E127CAE81CDB2F12001FEC83 /* Build configuration list for PBXNativeTarget "IRMRA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E127CAE91CDB2F12001FEC83 /* Debug */,
+				E127CAEA1CDB2F12001FEC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E127CAEB1CDB2F12001FEC83 /* Build configuration list for PBXNativeTarget "IRMRATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E127CAEC1CDB2F12001FEC83 /* Debug */,
+				E127CAED1CDB2F12001FEC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E127CAEE1CDB2F12001FEC83 /* Build configuration list for PBXNativeTarget "IRMRAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E127CAEF1CDB2F12001FEC83 /* Debug */,
+				E127CAF01CDB2F12001FEC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E127CAC71CDB2F12001FEC83 /* IRMRA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E127CAC81CDB2F12001FEC83 /* IRMRA.xcdatamodel */,
+			);
+			currentVersion = E127CAC81CDB2F12001FEC83 /* IRMRA.xcdatamodel */;
+			path = IRMRA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E127CAB01CDB2F12001FEC83 /* Project object */;
+}
