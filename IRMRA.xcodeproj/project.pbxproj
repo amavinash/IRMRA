@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78BE55251CE485F3003AD6FD /* checked@1X.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BE55221CE485F3003AD6FD /* checked@1X.png */; };
+		78BE55261CE485F3003AD6FD /* checked@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BE55231CE485F3003AD6FD /* checked@2X.png */; };
+		78BE55271CE485F3003AD6FD /* checked@3X.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BE55241CE485F3003AD6FD /* checked@3X.png */; };
+		78BE552B1CE4863A003AD6FD /* unchecked@1X.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BE55281CE4863A003AD6FD /* unchecked@1X.png */; };
+		78BE552C1CE4863A003AD6FD /* unchecked@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BE55291CE4863A003AD6FD /* unchecked@2X.png */; };
+		78BE552D1CE4863A003AD6FD /* unchecked@3X.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BE552A1CE4863A003AD6FD /* unchecked@3X.png */; };
+		78BE55301CE48C17003AD6FD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BE552F1CE48C17003AD6FD /* LoginViewController.m */; };
 		E127CABD1CDB2F12001FEC83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E127CABC1CDB2F12001FEC83 /* main.m */; };
 		E127CAC01CDB2F12001FEC83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E127CABF1CDB2F12001FEC83 /* AppDelegate.m */; };
 		E127CAC31CDB2F12001FEC83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E127CAC21CDB2F12001FEC83 /* ViewController.m */; };
@@ -45,6 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78BE55211CE46506003AD6FD /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		78BE55221CE485F3003AD6FD /* checked@1X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked@1X.png"; path = "../../IRMRA Assets/checked@1X.png"; sourceTree = "<group>"; };
+		78BE55231CE485F3003AD6FD /* checked@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked@2X.png"; path = "../../IRMRA Assets/checked@2X.png"; sourceTree = "<group>"; };
+		78BE55241CE485F3003AD6FD /* checked@3X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checked@3X.png"; path = "../../IRMRA Assets/checked@3X.png"; sourceTree = "<group>"; };
+		78BE55281CE4863A003AD6FD /* unchecked@1X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked@1X.png"; path = "../../IRMRA Assets/unchecked@1X.png"; sourceTree = "<group>"; };
+		78BE55291CE4863A003AD6FD /* unchecked@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked@2X.png"; path = "../../IRMRA Assets/unchecked@2X.png"; sourceTree = "<group>"; };
+		78BE552A1CE4863A003AD6FD /* unchecked@3X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unchecked@3X.png"; path = "../../IRMRA Assets/unchecked@3X.png"; sourceTree = "<group>"; };
+		78BE552E1CE48C17003AD6FD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		78BE552F1CE48C17003AD6FD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		E127CAB81CDB2F12001FEC83 /* IRMRA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRMRA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E127CABC1CDB2F12001FEC83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E127CABE1CDB2F12001FEC83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,10 +141,13 @@
 			children = (
 				E127CABE1CDB2F12001FEC83 /* AppDelegate.h */,
 				E127CABF1CDB2F12001FEC83 /* AppDelegate.m */,
+				78BE55211CE46506003AD6FD /* Constants.h */,
 				E127CAC11CDB2F12001FEC83 /* ViewController.h */,
 				E127CAC21CDB2F12001FEC83 /* ViewController.m */,
 				E127CB0E1CDB7051001FEC83 /* RegisterViewController.h */,
 				E127CB0F1CDB7051001FEC83 /* RegisterViewController.m */,
+				78BE552E1CE48C17003AD6FD /* LoginViewController.h */,
+				78BE552F1CE48C17003AD6FD /* LoginViewController.m */,
 				E127CAC41CDB2F12001FEC83 /* Main.storyboard */,
 				E127CACA1CDB2F12001FEC83 /* Assets.xcassets */,
 				E127CACC1CDB2F12001FEC83 /* LaunchScreen.storyboard */,
@@ -185,6 +204,12 @@
 		E127CAF31CDB2F80001FEC83 /* LogonScreen */ = {
 			isa = PBXGroup;
 			children = (
+				78BE55281CE4863A003AD6FD /* unchecked@1X.png */,
+				78BE55291CE4863A003AD6FD /* unchecked@2X.png */,
+				78BE552A1CE4863A003AD6FD /* unchecked@3X.png */,
+				78BE55221CE485F3003AD6FD /* checked@1X.png */,
+				78BE55231CE485F3003AD6FD /* checked@2X.png */,
+				78BE55241CE485F3003AD6FD /* checked@3X.png */,
 				E127CB081CDB32BF001FEC83 /* IRMRA_logo.png */,
 				E127CB091CDB32BF001FEC83 /* IRMRA_logo@2x.png */,
 				E127CB0A1CDB32BF001FEC83 /* IRMRA_logo@3x.png */,
@@ -302,16 +327,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				E127CB051CDB3166001FEC83 /* Logon_backgroundImage-667h.jpg in Resources */,
+				78BE55271CE485F3003AD6FD /* checked@3X.png in Resources */,
 				E127CB071CDB3166001FEC83 /* Logon_backgroundImage.jpg in Resources */,
 				E127CB041CDB3166001FEC83 /* Logon_backgroundImage-568h.jpg in Resources */,
 				E127CACE1CDB2F12001FEC83 /* LaunchScreen.storyboard in Resources */,
 				E127CB0D1CDB32BF001FEC83 /* IRMRA_logo@3x.png in Resources */,
 				E127CACB1CDB2F12001FEC83 /* Assets.xcassets in Resources */,
+				78BE552C1CE4863A003AD6FD /* unchecked@2X.png in Resources */,
+				78BE55261CE485F3003AD6FD /* checked@2X.png in Resources */,
 				E127CB061CDB3166001FEC83 /* Logon_backgroundImage-736h.jpg in Resources */,
 				E127CAC61CDB2F12001FEC83 /* Main.storyboard in Resources */,
 				E127CB031CDB3166001FEC83 /* Logon_backgroundImage-480h.jpg in Resources */,
+				78BE55251CE485F3003AD6FD /* checked@1X.png in Resources */,
+				78BE552B1CE4863A003AD6FD /* unchecked@1X.png in Resources */,
 				E127CB0B1CDB32BF001FEC83 /* IRMRA_logo.png in Resources */,
 				E127CB0C1CDB32BF001FEC83 /* IRMRA_logo@2x.png in Resources */,
+				78BE552D1CE4863A003AD6FD /* unchecked@3X.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +369,7 @@
 			files = (
 				E127CB101CDB7051001FEC83 /* RegisterViewController.m in Sources */,
 				E127CAC31CDB2F12001FEC83 /* ViewController.m in Sources */,
+				78BE55301CE48C17003AD6FD /* LoginViewController.m in Sources */,
 				E127CAC91CDB2F12001FEC83 /* IRMRA.xcdatamodeld in Sources */,
 				E127CAC01CDB2F12001FEC83 /* AppDelegate.m in Sources */,
 				E127CABD1CDB2F12001FEC83 /* main.m in Sources */,
